@@ -1,0 +1,53 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 20vw;
+    min-width: 20vw;
+    height: 40vh;
+    margin: 40px;
+    margin-bottom: 10px;
+}
+
+.images {
+    width: 100%;
+    height: inherit;
+    border-radius: 15px;
+}
+
+.description_and_value {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    width: 65%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: hsla(0, 79%, 32%, 0.884);;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #cc3232;
+}

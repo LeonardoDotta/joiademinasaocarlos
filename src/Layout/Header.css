@@ -1,0 +1,27 @@
+.header {
+    background-color: hsla(0, 79%, 32%, 0.884);
+    height: auto;
+}
+
+.img {
+    width: 10%;
+    padding-left: 45%;
+    height: 20vh;
+}
+
+.div_phones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: absolute;
+    color: white;
+    font-family: ui-rounded;
+    margin-top: 5vh;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.phone_link {
+    color: white;
+}
